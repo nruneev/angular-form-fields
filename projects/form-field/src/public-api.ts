@@ -11,3 +11,9 @@ export * from  './form/select/select.module';
 export * from './form/select/select.component';
 export * from './form/select/select-item/select-item.directive';
 export * from './form/textarea/textarea.component';
+
+export * from  './core/types';
+
+export * from './icon/icon.module';
+export * from './icon/icon-name.type';
+export  * from './icon/icon.component';

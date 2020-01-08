@@ -12,17 +12,17 @@ import {FormControlBase} from '../form-control/form-control-base';
     viewProviders: [{provide: ControlContainer, useExisting: FormGroupDirective}]
 })
 export class CheckboxComponent extends FormControlBase {
-    private chackboxName: string;
+    private checkboxName: string;
 
     @HostBinding('attr.name') attrName: string;
 
     @Input()
     set name(value: string) {
-        this.chackboxName = value;
+        this.checkboxName = value;
         this.attrName = value;
     }
 
     get name(): string {
-        return this.chackboxName;
+        return this.checkboxName;
     }
 }
