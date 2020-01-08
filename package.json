@@ -1,15 +1,24 @@
 {
-  "name": "lib-form-field",
-  "version": "0.0.0",
+  "name": "lib-form-fields",
+  "description": "This package allow you use more readable code and simple interface",
+  "version": "0.1.0",
+  "author": "Nikita Runeev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nruneev/angular-form-fields/issues"
+  },
+  "homepage": "https://github.com/nruneev/angular-form-fields",
   "scripts": {
     "ng": "ng",
+    "prestart": "npm run make-sprites",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "make-sprites": "node ./tools/prepare-assets.js",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~8.2.14",
     "@angular/common": "~8.2.14",
@@ -22,7 +31,8 @@
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1",
-    "ngx-take-until-destroy": "latest"
+    "ngx-take-until-destroy": "latest",
+    "@ng-select/ng-select": "latest"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.21",
@@ -43,6 +53,7 @@
     "karma-jasmine-html-reporter": "^1.4.0",
     "ng-packagr": "^5.4.0",
     "protractor": "~5.4.0",
+    "svg-sprite": "^1.5.0",
     "ts-node": "~7.0.0",
     "tsickle": "^0.37.0",
     "tslint": "~5.15.0",

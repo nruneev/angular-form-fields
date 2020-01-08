@@ -16,4 +16,4 @@ export * from  './core/types';
 
 export * from './icon/icon.module';
 export * from './icon/icon-name.type';
-export  * from './icon/icon.component';
+export * from './icon/icon.component';

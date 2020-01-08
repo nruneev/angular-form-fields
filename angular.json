@@ -11,6 +11,9 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
+          "assets": [
+            "projects/form-field/src/assets"
+          ],
           "options": {
             "tsConfig": "projects/form-field/tsconfig.lib.json",
             "project": "projects/form-field/ng-package.json"
