@@ -1,7 +1,8 @@
 {
   "name": "lib-form-fields",
   "description": "This package allow you use more readable code and simple interface",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "keywords": ["typescript", "html", "scss", "form", "field", "input", "checkbox", "select", "fields", "buttons"],
   "author": "Nikita Runeev",
   "license": "MIT",
   "bugs": {
